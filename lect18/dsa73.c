@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
     int arr[] = {-2, 6, -7, 9, 3, 4, -5};
-    int k = 3;
+    int k = 2;
     int winSum=0;
     for (int i = 0; i < k;i++){
         winSum = winSum + arr[i];
