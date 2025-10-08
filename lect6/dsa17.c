@@ -6,24 +6,25 @@ void main()
     printf("Enter A no. ");
     scanf("%d", &num);
 
-    int count = 0;
+    int len = 0;
 
-    if(num==1||num==0)
+    if (num == 1 || num == 0)
     {
-        count++;
+        len++;
     }
-    for (int i = num / 2; i > 1;i--)
+    for (int i = num / 2; i > 1; i--)
     {
-        if(num%i==0)
+        if (num % i == 0)
         {
-            count++;
+            len++;
         }
     }
-    if(!count)
+    if (!len)
     {
         printf("Number is prime ");
     }
-    else{
+    else
+    {
         printf("Number is not prime");
     }
 }
